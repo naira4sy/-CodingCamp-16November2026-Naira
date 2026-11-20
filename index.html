@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List Life Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1>Life Dashboard</h1>
+        <button type="button" id="add-category-btn" aria-label="Add Life Category">
+          + Add Life Category
+        </button>
+      </header>
+
+      <main>
+        <div id="dashboard-grid">
+          <!-- Life category panels are rendered here by render.js -->
+        </div>
+      </main>
+
+      <aside id="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+        <!-- Confirmation dialogs and edit forms are rendered here by render.js -->
+      </aside>
+    </div>
+
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>

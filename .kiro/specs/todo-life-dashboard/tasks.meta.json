@@ -6,6 +6,774 @@
         "executionId": "947df8ec-0c6f-4484-b321-90b1084d93c1",
         "chatSessionId": "sess_69d36009-3c6e-4b35-a71d-68b2e9df6a21",
         "timestamp": 1795105926700
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189447092
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189448995
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189460060
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189488871
+      }
+    ],
+    "2. Implement `constants.js`": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189449058
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189494585
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189574957
+      }
+    ],
+    "3.1 Implement `validateTaskTitle(title)` — returns `{ valid, message }`; rejects empty strings and titles exceeding 255 characters": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189449125
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189578711
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189632137
+      }
+    ],
+    "3.2 Implement `validateDueDate(dateStr)` — returns `{ valid, message }`; accepts `null`/empty (optional field) or a string matching `YYYY-MM-DD` that resolves to a valid calendar date; rejects all other formats": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189449175
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189583658
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189637718
+      }
+    ],
+    "3.3 Implement `validateListName(name)` — returns `{ valid, message }`; rejects empty strings and names exceeding 100 characters": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189449254
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189586570
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189641614
+      }
+    ],
+    "3.4 Implement `validateCategoryName(name)` — returns `{ valid, message }`; rejects empty strings and names exceeding 50 characters": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189449303
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189590043
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189646344
+      }
+    ],
+    "3.5 Write unit tests for all four validator functions": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189449353
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189652055
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189828851
+      }
+    ],
+    "4.1 Implement `isAvailable()` — probe write/read/delete to detect `SecurityError` or quota issues; return `boolean`": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189449401
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189655822
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189834245
+      }
+    ],
+    "4.2 Implement `load()` — read and `JSON.parse` from `STORAGE_KEY`; return `AppState | null`; catch parse errors and return `null`": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189449455
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189659244
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189837600
+      }
+    ],
+    "4.3 Implement `save(state)` — `JSON.stringify` and write to `STORAGE_KEY`; catch `QuotaExceededError` and other errors; return `{ ok: boolean, error?: string }`": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189449509
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189662609
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189842682
+      }
+    ],
+    "4.4 Write unit tests for `storage.js`": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189449556
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189847630
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189907559
+      }
+    ],
+    "5.1 Initialise module-level `_state` and `_uiState`; implement `getState()` returning a deep clone": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189449607
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189851615
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189911179
+      }
+    ],
+    "5.2 Implement Life Category mutations: `createCategory(name)` and `deleteCategory(id)`": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189449652
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189918124
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189985334
+      }
+    ],
+    "5.3 Implement Task List mutations: `createTaskList(name, categoryId)`, `renameTaskList(id, name)`, `deleteTaskList(id)` (cascades to tasks)": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189449698
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189921186
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189990127
+      }
+    ],
+    "5.4 Implement Task mutations: `createTask(title, dueDate, listId)`, `updateTask(id, title, dueDate)`, `toggleTask(id)`, `deleteTask(id)`": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189449753
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189925884
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189995291
+      }
+    ],
+    "5.5 Implement UI state helpers: `setFilter(listId, filter)` and `setSort(listId, sort)` (in-memory only, not persisted)": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189449824
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189931207
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795190000669
+      }
+    ],
+    "5.6 Write unit tests for `state.js` mutations": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189449873
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795190003837
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795190105754
+      }
+    ],
+    "6. Checkpoint — Core data layer complete": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189449918
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795190110871
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795190240548
+      }
+    ],
+    "7.1 Implement `renderProgressBar(completed, total)` — returns a `<div>` with `role=\"progressbar\"`, `aria-valuenow`, `aria-valuemin=\"0\"`, `aria-valuemax=\"100\"`, and a filled inner bar; display 0% without errors when `total === 0`": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189449968
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795190246143
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795190317293
+      }
+    ],
+    "7.2 Implement `renderTask(taskData)` — returns a `<li>` element with checkbox (`data-action=\"toggle-task\"`), title span, optional due-date span, and edit/delete buttons with `aria-label` attributes and `data-action` / `data-task-id` attributes; apply strikethrough class when `completed === true`": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189450015
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795190251532
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795190321191
+      }
+    ],
+    "7.3 Implement `renderTaskList(listData, tasks, uiState)` — returns a `.task-list-card` div containing: list header with name, progress bar, rename/delete buttons; filter-sort bar; filtered and sorted `<ul>` of task items; add-task form": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189450077
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795190326821
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795190433732
+      }
+    ],
+    "7.4 Implement `renderCategory(categoryData, taskLists, tasks, uiState)` — returns a `<section class=\"life-category-panel\">` with category header (name, category-level progress bar, delete button hidden for default categories), and all child task list cards": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189450127
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795190331831
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795190440652
+      }
+    ],
+    "7.5 Implement `renderDashboard(state)` — clears and rebuilds `#dashboard-grid`; groups task lists by category; renders an \"Uncategorised\" section for lists with no matching category; seeds default categories on first run": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189450175
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795190445597
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795190589266
+      }
+    ],
+    "7.6 Implement utility render helpers: `showInlineError(inputEl, message)`, `clearInlineError(inputEl)`, `showModal(config)`, `hideModal()`, `showStorageWarning(message)`": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189450226
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795190450000
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795190595138
+      }
+    ],
+    "7.7 Write unit tests for render helpers": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189450288
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795190600879
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795191188616
+      }
+    ],
+    "8.1 Implement `onAddTask(event)` — validate title and date with `validators.js`; show inline errors on failure; call `state.createTask`; re-render the affected task list; display storage error if save fails": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189450341
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795190607035
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795191195229
+      }
+    ],
+    "8.2 Implement `onToggleTask(event)` — call `state.toggleTask`; re-render the task item and its progress bar within 100 ms; display storage error if save fails": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189450388
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795190612884
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795191201940
+      }
+    ],
+    "8.3 Implement `onEditTask(event)` and `onDeleteTask(event)` — `onEditTask` renders an inline edit form pre-filled with current title and due date; on save, validates and calls `state.updateTask`; `onDeleteTask` calls `showModal` for confirmation before calling `state.deleteTask`; both display storage errors on failure": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189450435
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795191207887
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795191362040
+      }
+    ],
+    "8.4 Implement `onAddTaskList(event)`, `onRenameTaskList(event)`, `onDeleteTaskList(event)` — validate names; show inline errors; confirm deletion via modal; re-render affected category panel": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189450486
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795191212016
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795191367545
+      }
+    ],
+    "8.5 Implement `onAddCategory(event)` and `onDeleteCategory(event)` — validate name; confirm deletion with message noting all contained lists and tasks will be deleted; block deletion of default categories; full dashboard re-render after category changes": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189450573
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795191217456
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795191372151
+      }
+    ],
+    "8.6 Implement `onFilterChange(event)` and `onSortChange(event)` — call `state.setFilter`/`state.setSort`; re-render the affected task list": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189450621
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795191223166
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795191376167
+      }
+    ],
+    "8.7 Implement `onConfirmModal(event)` and `onCancelModal(event)` — execute or discard the pending destructive action; call `hideModal()`": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189450664
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795191228563
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795191381549
+      }
+    ],
+    "9. Implement `app.js` — bootstrap and event wiring": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189450712
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795191387736
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795191492687
+      }
+    ],
+    "10. Checkpoint — Full feature wiring complete": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189450760
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795191497340
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795191697080
+      }
+    ],
+    "11.1 Define CSS custom properties for colour palette; ensure all text/background pairs meet WCAG 2.1 AA 4.5:1 contrast ratio": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189450812
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795191701466
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795191762059
+      }
+    ],
+    "11.2 Set `font-size: 1rem` (inherits browser default 16 px) on `body`; set `line-height: 1.5` for task and label text; use `rem` and `%` for all font sizes and spacing": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189450863
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795191706766
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795191766428
+      }
+    ],
+    "11.3 Implement responsive `#dashboard-grid` using CSS Grid: single-column default; `repeat(auto-fill, minmax(320px, 1fr))` at `min-width: 768px`; `repeat(auto-fill, minmax(400px, 1fr))` at `min-width: 1200px`": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189450911
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795191772033
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795191866276
+      }
+    ],
+    "11.4 Style `.task-list-card`, `.life-category-panel`, `.task-item`, `.filter-sort-bar`, `.add-task-form`, and progress bar components": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189450965
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795191776349
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795191870153
+      }
+    ],
+    "11.5 Add `:focus-visible` outlines (2 px solid, 2 px offset) on all interactive elements: buttons, inputs, checkboxes, and select elements": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189451016
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795191876378
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795192222723
+      }
+    ],
+    "11.6 Style the modal overlay — centred dialog, backdrop, focus trap visible state; style inline error messages and the storage warning banner": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189451067
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795191880571
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795192227648
+      }
+    ],
+    "12. Accessibility and ARIA wiring": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189451118
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795192233870
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795192330916
+      }
+    ],
+    "13.1 Verify no JavaScript console errors appear during normal operation (add, complete, delete, filter, sort, rename, reload) — test in Chrome, Firefox, Edge, and Safari": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189451164
+      },
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795192337891
+      }
+    ],
+    "13.2 Write a manual test checklist covering: initial load with empty storage, reload with existing storage data, storage unavailability simulation (private browsing), and all filter/sort combinations": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189451217
+      }
+    ],
+    "14. Final checkpoint — Ensure all tests pass": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189451266
+      }
+    ],
+    "3. Implement `validators.js`": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189828927
+      }
+    ],
+    "4. Implement `storage.js`": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795189907636
+      }
+    ],
+    "5. Implement `state.js` — core data mutations": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795190105835
+      }
+    ],
+    "7. Implement `render.js` — DOM builders": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795191188693
+      }
+    ],
+    "8. Implement `eventHandlers.js`": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795191381613
+      }
+    ],
+    "11. Apply CSS — base styles, layout, and components": [
+      {
+        "executionId": "afa5acd4-0b09-4e7a-b340-150188517470",
+        "chatSessionId": "sess_6279eaa4-e7b5-436e-8661-6249cb125e14",
+        "timestamp": 1795192227796
       }
     ]
   }
